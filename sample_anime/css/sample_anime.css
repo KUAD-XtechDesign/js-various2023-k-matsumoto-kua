@@ -1,4 +1,11 @@
+body{
+  background-image: url(../../dummy_images/dummy_01.jpg);
+  background-size: cover;
+  background-position: center center;
 
+  width: 100vw;
+  min-height: 100vh;
+}
 
 .pics{
   position: absolute;
