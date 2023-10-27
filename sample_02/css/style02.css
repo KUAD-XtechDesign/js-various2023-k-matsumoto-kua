@@ -48,9 +48,34 @@ header{
 }
 
 .set{
-  background-color: #ccc;
-  min-height: 400px;
+  background-color: #fff;
+  min-height: 100px;
   margin-bottom: 40px;
+
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.set .pic{
+  
+}
+
+.set .txt{
+  flex: 1;
+  padding: 10px;
+}
+
+.set img{
+  width: 300px;
+  display: block;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  color:#1174e5;
 }
 
 body.one #backimg01,
